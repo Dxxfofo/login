@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+:root{
+    --white: #fff;
+    --whitesmoke: #f9f9f9;
+    --light: #ececec;
+    --grey: #c4c4c4;
+    --medium-grey: #a7a7a7;
+    --deep-grey: #343434;
+    --blue: #1b77f3;
+    --black: #000000;
+    --whitesmoke: #f9f9f9;
+}
+
+body{
+    background-color: black;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    background-color: #fff;
+    width: 40em;
+    height: 20em;
+    padding: 2em;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: var(--deep-grey);
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+label{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    background-color: var(--light);
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9em;
+    font-weight: 600;
+    padding: 25px 5px 1px;
+    color: var(--deep-grey);
+    transition: all 200ms ease;
+}
+
+span{
+    position: absolute;
+    font-size: 0.8;
+    font-weight: 600;
+    margin: 10px;
+    cursor: text;
+    color: var(--medium-grey);
+}
+
+input:focus{
+    background-color: var(--whitesmoke);
+    border: 2px solid var(--deep-grey);
+}
+
+.span-active{
+    font-size: 0.8em;
+    margin: 8px 10px;
+}
